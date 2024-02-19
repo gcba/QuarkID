@@ -1,0 +1,18 @@
+[submodule "agente-mobile"]
+	path = agente-mobile
+	url = https://github.com/gcba/agente-mobile.git
+[submodule "api-proxy"]
+	path = api-proxy
+	url = https://github.com/gcba/api-proxy.git
+[submodule "dwn"]
+	path = dwn
+	url = https://github.com/gcba/dwn.git
+[submodule "api-zkSync"]
+	path = api-zkSync
+	url = https://github.com/gcba/api-zkSync.git
+[submodule "message-manager"]
+	path = message-manager
+	url = https://github.com/gcba/message-manager.git
+[submodule "WhitePaper"]
+	path = WhitePaper
+	url = https://github.com/gcba/WhitePaper.git

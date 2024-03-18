@@ -8,7 +8,7 @@ Es el framework de confianza digital desarrollado por el Gobierno de la Ciudad d
 Quark ID es un protocolo de identidad digital autosoberana, de código abierto, que simplifica las transacciones y les permite a las personas tener todos sus documentos en un solo lugar, tanto los emitidos por instituciones públicas como privadas, de Argentina y del mundo. Quark ID es descentralizado, público, no permisionado, abierto, extensible y capaz de interoperar con otros protocolos similares.
 
 
-## Su arquitectura está compuesto por:
+## Su arquitectura está compuesta por:
 
 [agente-mobile](https://github.com/gcba/agente-mobile)
 [api-proxy](https://github.com/gcba/api-proxy)
@@ -16,6 +16,8 @@ Quark ID es un protocolo de identidad digital autosoberana, de código abierto, 
 [api-zkSync](https://github.com/gcba/api-zkSync)
 [message-manager](https://github.com/gcba/message-manager)
 
+## Diagrama de arquitectura
+![image](https://github.com/gcba/QuarkID/assets/155554555/dc745a48-ab90-45e5-95a7-d8504ef8192f)
 
 ## WhitePaper
 

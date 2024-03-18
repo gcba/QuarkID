@@ -16,10 +16,9 @@ Quark ID es un protocolo de identidad digital autosoberana, de código abierto, 
 [api-zkSync](https://github.com/gcba/api-zkSync)
 [message-manager](https://github.com/gcba/message-manager)
 
-## Diagrama de arquitectura
-![image](https://github.com/gcba/QuarkID/assets/155554555/dc745a48-ab90-45e5-95a7-d8504ef8192f)
-
 ## WhitePaper
 
 [Link](https://github.com/gcba/WhitePaper)
 
+## Documentación 
+[Link](https://docs.quarkid.org/)

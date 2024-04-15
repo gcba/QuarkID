@@ -11,9 +11,13 @@ Quark ID es un protocolo de identidad digital autosoberana, de código abierto, 
 ## Su arquitectura está compuesta por:
 
 [agente-mobile](https://github.com/gcba/agente-mobile)
+
 [api-proxy](https://github.com/gcba/api-proxy)
+
 [dwn](https://github.com/gcba/dwn)
+
 [api-zkSync](https://github.com/gcba/api-zkSync)
+
 [message-manager](https://github.com/gcba/message-manager)
 
 ## WhitePaper
@@ -22,3 +26,17 @@ Quark ID es un protocolo de identidad digital autosoberana, de código abierto, 
 
 ## Documentación 
 [Link](https://docs.quarkid.org/)
+
+## Guía para descargar componentes
+
+Orden sugerido: 
+1. API zkSync
+2. API Proxy
+3. Message-Manager
+4. DWN
+5. Agente Mobile
+
+## Guía para emitir Credenciales Verificables
+
+Para saber más sobre credenciales verificables, puede encontar documentación para realizar [este proceso](https://docs.quarkid.org/Quickstart/Creacion%20de%20una%20VC/). Usted, como emisor de una credencial verificable, deberá definir la información que dicha credencial contendrá, es decir, los campos que formarán parte del JSON de su credencial. 
+

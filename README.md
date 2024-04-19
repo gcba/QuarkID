@@ -16,12 +16,14 @@ Quark ID es un protocolo de identidad digital autosoberana, de código abierto, 
 
 ## Guía para descargar componentes
 
-1. [API zkSync](https://github.com/gcba/api-zkSync/tree/master)
+1. [API zkSync](https://github.com/gcba/api-zkSync/tree/master) 
 2. [API Proxy](https://github.com/gcba/api-proxy/tree/master)
 3. [Message-Manager](https://github.com/gcba/message-manager/tree/master)
 4. [DWN](https://github.com/gcba/dwn/tree/master)
 5. [Agente Mobile](https://github.com/gcba/agente-mobile/tree/master) *Para lograr una instalación correcta del Agente Mobile, recuerde que usted debe tener previamente un ambiente de desarollo de React Native.*
 
+## Pasos para iniciar un nodo de Identidad Quarkid
+[Documentación para iniciar un nodo](https://github.com/gcba/Nodo-QuickStar/tree/master). Incluye información sobre configuraciones de los componentes API zkSync y API Proxy.
    
 ## Guía para emitir Credenciales Verificables
 

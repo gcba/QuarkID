@@ -24,6 +24,9 @@ Quark ID es un protocolo de identidad digital autosoberana, de código abierto, 
 
 ## Pasos para iniciar un nodo de Identidad Quarkid
 [Documentación para iniciar un nodo](https://github.com/gcba/Nodo-QuickStar/tree/master). Incluye información sobre configuraciones de los componentes API zkSync y API Proxy.
+
+## Paquetes NPMJs
+[Este conjunto de 11 paquetes NPMJs se utiliza para realizar las operación de bajo nivel y abstraer la lógica para facilitar el desarrollo de los componentes](https://github.com/gcba/Paquetes-NPMjs). 
    
 ## Guía para emitir Credenciales Verificables
 

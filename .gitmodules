@@ -16,6 +16,3 @@
 [submodule "WhitePaper"]
 	path = WhitePaper
 	url = https://github.com/gcba/WhitePaper.git
-[submodule "Nodo-QuickStar"]
-	path = Nodo-QuickStar
-	url = https://github.com/gcba/Nodo-QuickStar.git

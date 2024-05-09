@@ -30,5 +30,5 @@ Conjunto de [13 paquetes NPMJs](https://github.com/gcba/Paquetes-NPMjs) que se u
    
 ## Guía para emitir Credenciales Verificables
 
-Para saber más sobre credenciales verificables, puede encontar documentación para realizar [este proceso](https://docs.quarkid.org/Quickstart/Creacion%20de%20una%20VC/). Usted, como emisor de una credencial verificable, deberá definir la información que dicha credencial contendrá, es decir, los campos que formarán parte del JSON de su credencial. 
+Para saber más sobre credenciales verificables, puede encontar documentación para realizar [este proceso](https://github.com/gcba/Quickstart-Emision-Verificacion-de-Vcs/tree/master). 
 

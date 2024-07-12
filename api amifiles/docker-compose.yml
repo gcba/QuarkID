@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api-ami-files:
+    image: extrimianpublic.azurecr.io/api-ami-files:0.0.2
+    ports:
+      - "8000:8000"
+    environment:
+      - ACCOUNT_NAME=NOMBRE_DE_LA_CUENTA
+      - ACCOUNT_KEY=CLAVE_DE_LA_CUENTA
+      - BLOB_SERVICE_URL=https://NOMBRE_DE_LA_CUENTA.blob.core.windows.net
+      - API_SERVICE_URL=http://api-ami-files:8000
+
+
+  

@@ -1,0 +1,58 @@
+
+services:
+  vcsl_api:
+    build: ./vcsl_api
+    ports:
+      - "4242:4242"
+    restart: always
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      - PSQL_HOST=postgres
+      - PSQL_PORT=5432
+      - PSQL_USER=postgres
+      - PSQL_PASS=porrazo123
+      - PSQL_DB=vcsl_db
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - IPFS_API_URL=
+      - WEB3_URL=
+      - WEB3_PRIVATE_KEY=
+      - WEB3_CONTRACT_ADDR=
+      - WEB3_ABI_PATH=
+
+  ipfs_api:
+    build: ./ipfs_api
+    ports:
+      - "4243:4243"
+    restart: always
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=vcsl_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=porrazo123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf
+    restart: always
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: always
+
+volumes:
+  postgres_data:
+  redis_data:
+

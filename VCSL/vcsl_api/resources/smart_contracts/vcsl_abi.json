@@ -1,0 +1,125 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_id",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_ipns",
+				"type": "string"
+			}
+		],
+		"name": "addData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_url",
+				"type": "string"
+			}
+		],
+		"name": "setUrl",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "dataDictionary",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "ipns",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "creationTS",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_id",
+				"type": "string"
+			}
+		],
+		"name": "getData",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "ipns",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "creationTS",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getUrl",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "storedUrl",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

@@ -1,0 +1,11 @@
+apscheduler==3.10.4
+cryptography==41.0.7
+fastapi==0.109.0
+kink==0.7.0
+psycopg2==2.9.6
+pydantic==2.5.3
+pytest==7.4.4
+redis==5.0.1
+Requests==2.31.0
+web3==6.5.0
+uvicorn==0.25.0
